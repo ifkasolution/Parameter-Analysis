@@ -1,0 +1,37 @@
+﻿<ParametricModification file="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\Getriebe624_v2.ssd">
+	<Part name=".\Getriebe\1. Gang\1. Gang Pinion">
+		<Variable name="faceWidth" type="float" unit="length" value="1.9000000000000001e-002"/>
+	</Part>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@10-10000-1">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@10-10000-2">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@20-5000-1">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@20-5000-2">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@5-20000-1">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Case name="Getriebe&gt;&gt;DC_ifka\@5-20000-2">
+		<Action name="runStaticAnalysisNotify" priority="1"/>
+		<Action name="runDynamicAnalysisFromOptimizer" priority="2"/>
+	</Case>
+	<Part name=".\Getriebe">
+		<Action name="saveDesignWithResultsAs:" priority="3">
+			<Argument value="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\OutputCHangeFacheWIdth.ssd"/>
+		</Action>
+		<Action name="exportXMLTo:" priority="4">
+			<Argument value="C:\Users\xiang\Downloads\OneDrive_2020-11-14\MA Meng\Program\RMX\SA_test.xml"/>
+		</Action>
+	</Part>
+</ParametricModification>

@@ -1,0 +1,91 @@
+﻿<ParametricModification file="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\Getriebe624_v2.ssd">
+<Part name=".\Getriebe\1. Gang\gearDesignSettings">
+<Variable name="normalModule" type="float" unit="length" value="1.65e-003"/>
+<Variable name="pressureAngle" type="float" unit="angle" value="0.30543261909900765"/>
+<Variable name="signedHelixAngle" type="float" unit="angle" value="-0.43633231299858238"/>
+</Part>
+<Part name=".\Getriebe\1. Gang\1. Gang Pinion">
+<Variable name="edgeChamferWidth" type="float" unit="length" value="0."/>
+<Variable name="faceWidth" type="float" unit="length" value="2.1000000000000001e-002"/>
+<Variable name="flankSurfaceRoughness" type="float" unit="lengthSmall" value="6.666666666666666e-007"/>
+<Variable name="flankSurfaceRoughnessMeanPeakToValley" type="float" unit="lengthSmall" value="3.9999999999999998e-006"/>
+<Variable name="qualityGrade" type="integer" unit="integer" value="7"/>
+<Variable name="rootSurfaceRoughnessMeanPeakToValley" type="float" unit="lengthSmall" value="1.0000000000000001e-005"/>
+</Part>
+<Part name=".\Getriebe\1. Gang@@1. Gang Pinion -&#62; 1. Gang Wheel\gearDesignSettings">
+<Variable name="normalBacklash" type="float" unit="length" value="-2.349803914691411e-007"/>
+</Part>
+<Part name=".\Getriebe\1. Gang\1. Gang Pinion@@Left Flank">
+<Variable name="biasSlopeChangeMinus" type="float" unit="lengthSmall" value="0."/>
+<Variable name="biasSlopeChangePlus" type="float" unit="lengthSmall" value="0."/>
+<Variable name="involuteBarrelling" type="float" unit="lengthSmall" value="0."/>
+<Variable name="involuteSlope" type="float" unit="lengthSmall" value="0."/>
+<Variable name="leadCrown" type="float" unit="lengthSmall" value="0."/>
+<Variable name="leadSlope" type="float" unit="lengthSmall" value="0."/>
+<Variable name="linearRootRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="linearTipRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerInvoluteLimit" type="float" unit="angle" value="9.7042105596502767e-002"/>
+<Variable name="lowerLinearEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerLinearEndReliefStart" type="float" unit="length" value="3.15e-003"/>
+<Variable name="lowerParabolicEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerParabolicEndReliefStart" type="float" unit="length" value="3.15e-003"/>
+<Variable name="parabolicRootRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="parabolicTipRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="zeroBiasProfileRatio" type="float" unit="percentage" value="0."/>
+<Variable name="reportedLinearRootReliefStartRollAngle" type="float" unit="angle" value="9.7042105596502767e-002"/>
+<Variable name="reportedLinearTipReliefStartRollAngle" type="float" unit="angle" value="0.65843301853560343"/>
+<Variable name="reportedParabolicRootReliefStartRollAngle" type="float" unit="angle" value="9.7042105596502767e-002"/>
+<Variable name="reportedParabolicTipReliefStartRollAngle" type="float" unit="angle" value="0.65843301853560343"/>
+<Variable name="upperInvoluteLimit" type="float" unit="angle" value="0.65843301853560343"/>
+<Variable name="upperLinearEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="upperLinearEndReliefStart" type="float" unit="length" value="1.7850000000000001e-002"/>
+<Variable name="upperParabolicEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="upperParabolicEndReliefStart" type="float" unit="length" value="1.7850000000000001e-002"/>
+</Part>
+<Part name=".\Getriebe\1. Gang\1. Gang Pinion@@Right Flank">
+<Variable name="biasSlopeChangeMinus" type="float" unit="lengthSmall" value="0."/>
+<Variable name="biasSlopeChangePlus" type="float" unit="lengthSmall" value="0."/>
+<Variable name="involuteBarrelling" type="float" unit="lengthSmall" value="0."/>
+<Variable name="involuteSlope" type="float" unit="lengthSmall" value="0."/>
+<Variable name="leadCrown" type="float" unit="lengthSmall" value="0."/>
+<Variable name="leadSlope" type="float" unit="lengthSmall" value="0."/>
+<Variable name="linearRootRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="linearTipRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerLinearEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerLinearEndReliefStart" type="float" unit="length" value="3.15e-003"/>
+<Variable name="lowerParabolicEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="lowerParabolicEndReliefStart" type="float" unit="length" value="3.15e-003"/>
+<Variable name="parabolicRootRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="parabolicTipRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="zeroBiasProfileRatio" type="float" unit="percentage" value="0."/>
+<Variable name="reportedLinearRootReliefStartRollAngle" type="float" unit="angle" value="9.7042105596502767e-002"/>
+<Variable name="reportedLinearTipReliefStartRollAngle" type="float" unit="angle" value="0.65843301853560343"/>
+<Variable name="reportedParabolicRootReliefStartRollAngle" type="float" unit="angle" value="9.7042105596502767e-002"/>
+<Variable name="reportedParabolicTipReliefStartRollAngle" type="float" unit="angle" value="0.65843301853560343"/>
+<Variable name="upperLinearEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="upperLinearEndReliefStart" type="float" unit="length" value="1.7850000000000001e-002"/>
+<Variable name="upperParabolicEndRelief" type="float" unit="lengthSmall" value="0."/>
+<Variable name="upperParabolicEndReliefStart" type="float" unit="length" value="1.7850000000000001e-002"/>
+</Part>
+<Part name=".\Getriebe\1. Gang\1. Gang Pinion\gearDesignSettings">
+<Variable name="effectiveProtuberance" type="float" unit="length" value="0."/>
+<Variable name="numberOfTeeth" type="integer" unit="integer" value="24"/>
+<Variable name="profileShiftCoefficient" type="float" unit="none" value="0.54992192011552421"/>
+<Variable name="protuberanceAngle" type="float" unit="angle" value="0.15707963267948966"/>
+<Variable name="rootDiameter" type="float" unit="length" value="3.9600000000000003e-002"/>
+<Variable name="tipChamferAngle" type="float" unit="angle" value="0.78539816339744828"/>
+<Variable name="tipChamferHeight" type="float" unit="length" value="0."/>
+<Variable name="tipDiameter" type="float" unit="length" value="4.9409999999999996e-002"/>
+<Variable name="toolTipRadius" type="float" unit="length" value="4.95e-004"/>
+</Part>
+<Connection name=".\Getriebe\1. Gang\1. Gang Pinion@@Mounting detail">
+<Variable name="initialRotationError" type="float" unit="angle" value="0."/>
+<Variable name="offset" type="float" unit="length" value="1.4999999999999999e-002"/>
+</Connection>
+<Case name=".\Getriebe\1. Gang@@1. Gang Pinion -&#62; 1. Gang Wheel&#62;&#62;DC_ifka\@10-10000-1">
+<Variable name="faceLoadPoint" unit="length" value="nil"/>
+</Case>
+<Case name=".\Getriebe\1. Gang@@1. Gang Pinion -&#62; 1. Gang Wheel&#62;&#62;DC_ifka\@10-10000-1\@10-10000-1 Rating Case (1. Gang Pinion -&#62; 1. Gang Wheel)">
+<Variable name="kHbeta" type="float" unit="none" value="1."/>
+</Case>
+</ParametricModification>

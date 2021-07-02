@@ -1,0 +1,137 @@
+﻿<ParametricModification file="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\Getriebe624_v2.ssd">
+  <Part name=".\Getriebe\Konstant Gear Set\Konstant Pinion">
+    <Variable name="faceWidth" nameUser="20" type="float" unit="length" value="0.0232874373143962"/>
+  </Part>
+  <Connection name=".\Getriebe\Abtriebswelle Assembly\Rolling Bearing 7@@Mounting detail">
+    <Variable name="offset" nameUser="1720" type="float" unit="length" value="0.1157595988121357"/>
+  </Connection>
+  <Part name=".\Getriebe\1. Gang\1. Gang Wheel">
+    <Variable name="flankSurfaceRoughness" nameUser="23" type="float" unit="lengthSmall" value="6.654974925758482e-07"/>
+  </Part>
+  <Part name=".\Getriebe">
+    <Variable name="lubricantLevel" nameUser="2766" type="float" unit="length" value="0.02389969910910177"/>
+  </Part>
+  <Case name=".\Getriebe&gt;&gt;DC_ifka\@10-10000-1">
+    <Variable name="temperature" nameUser="2772" type="float" unit="temperature" value="330.1005014848303"/>
+  </Case>
+  <Part name=".\Getriebe\1. Gang\gearDesignSettings">
+    <Variable name="normalModule" nameUser="1" type="float" unit="length" value="0.0016749987462879238"/>
+  </Part>
+  <Connection name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 3@@Mounting detail">
+    <Variable name="offset" nameUser="1724" type="float" unit="length" value="0.007644974925758484"/>
+  </Connection>
+  <Case name=".\Getriebe&gt;&gt;DC_ifka\@10-10000-1">
+    <Action name="runStaticAnalysisNotify" priority="0"/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang@@1. Gang Pinion -&gt; 1. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="843" unit="power" value="96.7382103"/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang@@2. Gang Pinion -&gt; 2. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="849" unit="power" value="3.14180805e-7"/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set@@Konstant Pinion -&gt; Konstant Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="855" unit="power" value="72.6659256"/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1\1. Gang (@10-10000-1) Rating Case (1. Gang Pinion -&gt; 1. Gang Wheel)">
+    <Result name="bendingDamage" nameUser="1113" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1\1. Gang (@10-10000-1) Rating Case (1. Gang Pinion -&gt; 1. Gang Wheel)">
+    <Result name="bendingDamage" nameUser="1119" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1\2.Gang (@10-10000-1) Rating Case (2. Gang Pinion -&gt; 2. Gang Wheel)">
+    <Result name="bendingDamage" nameUser="1125" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1\2.Gang (@10-10000-1) Rating Case (2. Gang Pinion -&gt; 2. Gang Wheel)">
+    <Result name="bendingDamage" nameUser="1131" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Pinion&gt;&gt;DC_ifka\@10-10000-1\Konstant Gear Set (@10-10000-1) Rating Case (Konstant Pinion -&gt; Konstant Wheel)">
+    <Result name="bendingDamage" nameUser="1137" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Wheel&gt;&gt;DC_ifka\@10-10000-1\Konstant Gear Set (@10-10000-1) Rating Case (Konstant Pinion -&gt; Konstant Wheel)">
+    <Result name="bendingDamage" nameUser="1143" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1\1. Gang (@10-10000-1) Rating Case (1. Gang Pinion -&gt; 1. Gang Wheel)">
+    <Result name="contactDamage" nameUser="1149" unit="percentage" value="2121.27855"/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1\1. Gang (@10-10000-1) Rating Case (1. Gang Pinion -&gt; 1. Gang Wheel)">
+    <Result name="contactDamage" nameUser="1155" unit="percentage" value="504.066189"/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1\2.Gang (@10-10000-1) Rating Case (2. Gang Pinion -&gt; 2. Gang Wheel)">
+    <Result name="contactDamage" nameUser="1161" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1\2.Gang (@10-10000-1) Rating Case (2. Gang Pinion -&gt; 2. Gang Wheel)">
+    <Result name="contactDamage" nameUser="1167" unit="percentage" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Pinion&gt;&gt;DC_ifka\@10-10000-1\Konstant Gear Set (@10-10000-1) Rating Case (Konstant Pinion -&gt; Konstant Wheel)">
+    <Result name="contactDamage" nameUser="1173" unit="percentage" value="1819.89002"/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Wheel&gt;&gt;DC_ifka\@10-10000-1\Konstant Gear Set (@10-10000-1) Rating Case (Konstant Pinion -&gt; Konstant Wheel)">
+    <Result name="contactDamage" nameUser="1179" unit="percentage" value="350.822172"/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1545" unit="power" value="9.80431602"/>
+  </Case>
+  <Case name=".\Getriebe\1. Gang\1. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1551" unit="power" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Pinion&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1557" unit="power" value="9.748032"/>
+  </Case>
+  <Case name=".\Getriebe\2.Gang\2. Gang Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1563" unit="power" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Pinion&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1569" unit="power" value="0."/>
+  </Case>
+  <Case name=".\Getriebe\Konstant Gear Set\Konstant Wheel&gt;&gt;DC_ifka\@10-10000-1">
+    <Result name="componentPowerLoss" nameUser="1575" unit="power" value="101.248066"/>
+  </Case>
+  <Case name=".\Getriebe\Abtriebswelle Assembly\Rolling Bearing 7&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2649" unit="time" value="236907209"/>
+  </Case>
+  <Case name=".\Getriebe\Abtriebswelle Assembly\Rolling Bearing 8&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2655" unit="time" value="19110004.6"/>
+  </Case>
+  <Case name=".\Getriebe\Antriebswelle Assembly\Rolling Bearing 1&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2661" unit="time" value="592952012"/>
+  </Case>
+  <Case name=".\Getriebe\Antriebswelle Assembly\Rolling Bearing 2&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2667" unit="time" value="4.05779739e9"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 3&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2673" unit="time" value="64658314.3"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 4&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2679" unit="time" value="54559993.3"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 5&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2685" unit="time" value="+Infinity"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 6&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="isoLifeSec" nameUser="2691" unit="time" value="3.82102401e27"/>
+  </Case>
+  <Case name=".\Getriebe\Abtriebswelle Assembly\Rolling Bearing 7&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4089" unit="power" value="2.02484888"/>
+  </Case>
+  <Case name=".\Getriebe\Abtriebswelle Assembly\Rolling Bearing 8&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4095" unit="power" value="2.88595578"/>
+  </Case>
+  <Case name=".\Getriebe\Antriebswelle Assembly\Rolling Bearing 1&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4101" unit="power" value="30.3702568"/>
+  </Case>
+  <Case name=".\Getriebe\Antriebswelle Assembly\Rolling Bearing 2&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4107" unit="power" value="25.9523691"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 3&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4113" unit="power" value="7.79835705"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 4&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4119" unit="power" value="7.97660724"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 5&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4125" unit="power" value="2.89899629e-16"/>
+  </Case>
+  <Case name=".\Getriebe\Zwischenwelle Assembly\Rolling Bearing 6&gt;&gt;DC_ifka\@10-10000-1\@10-10000-1">
+    <Result name="powerLoss" nameUser="4131" unit="power" value="2.66620927"/>
+  </Case>
+</ParametricModification>

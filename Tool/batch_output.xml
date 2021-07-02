@@ -1,0 +1,7 @@
+﻿<ParametricModification file="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\Getriebe624_v2.ssd">
+  <Part name=".\Getriebe">
+    <Action name="exportXMLTo:" priority="1">
+      <Argument value="C:\Users\xiang\OneDrive - IFKA\Dokumente\Technical Review (Jira)\MA_MENG\Program\RMX\sa_original_data.xml"/>
+    </Action>
+  </Part>
+</ParametricModification>

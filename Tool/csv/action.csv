@@ -1,0 +1,29 @@
+Name;ActionType;AssemType;PartType;NameInXml;ArgumentValue1;ArgumentValue2;ArgumentValue3;ArgumentValue4
+exportXMLTo:;Part;;;.\{GearboxName};{path};;;
+generatePDFReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generatePPTXReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generateDOCXReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generateDOCReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generateXLSXReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generateXLSReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+generateHTMLReport:outputFile:;Part;;;.\{GearboxName};Bearing Catalog Details;{path};;
+saveDesignAs:;Part;;;.\{GearboxName};{path};;;
+saveDesignWithResultsAs:;Part;;;.\{GearboxName};{path};;;
+resetEvaluationLimits;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};;;;
+applyDesignTool;Part;HelicalGearset;;.\{GearboxName}\{AssemName1};;;;
+importResultsForAllLoadCases:;Part;HelicalGearset;;.\{GearboxName}\{AssemName1};C:\Program Files (x86)\RomaxSoftware\RomaxDESIGNER R17\temp\Duty cycle results for {GearboxName}-{AssemName1}.txt;;;
+clearAllTopologyCaseResults;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};;;;
+resultsAndExceptionsClear;Case;;;.\{GearboxName}>>{TestPlan};;;;
+runStaticAnalysis;Case;;;.\{GearboxName}>>{TestPlan};;;;
+outputMeshContactResultsIsolatedMesh:rollAxis:to:named:;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);loadGraph;rollAngle;;(Default) - {PartName} -_ {AssemName1} Wheel
+outputTEPlotIsolatedMesh:rollAxis:named:;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);transmissionErrorLinear;rollAngle;outputFile.csv;
+calculateTransmissionErrorForParametrics;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);;;;
+resultsAndExceptionsClear;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+createOrAppendToGearSetDutyCycleResultsFiles:;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};C:\Program Files (x86)\RomaxSoftware\RomaxDESIGNER R17\temp\;;;
+runAdvancedBearingAnalysisNotify;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+runDynamicAnalysisFromOptimizer:;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+runStaticAnalysisNotify;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+runStaticAnalysisAndUpdateProgress;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+setGBTEMeshStiffnessForNVH;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+setGBTEForNVH;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;
+setISOMeshStiffnessForNVH;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};;;;

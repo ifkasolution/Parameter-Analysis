@@ -1,0 +1,7 @@
+<ParametricModification file="C:\IFKA\OneDrive - IFKA\Prototype\IFKA\RMX\Getriebe624_v2.ssd">
+  <Part name="Gearbox_NameRMX_PathXML_Path">
+    <Action name="exportXMLTo:" priority="3">
+      <Argument value="C:\IFKA\OneDrive - IFKA\Prototype\IFKA\RMX\output.xml"/>
+    </Action>
+  </Part>
+<Exceptions><Element ClassName="Misc exception" Severity="Failure"><Description>Check your input file</Description><MessageText>Could not find part named Gearbox_NameRMX_PathXML_Path</MessageText></Element><Element ClassName="Misc exception" Severity="Warning"><Description>Problem loading XML Definition</Description><MessageText>Could not find Part Named Gearbox_NameRMX_PathXML_Path in Getriebe624</MessageText></Element><Element ClassName="Misc exception" Severity="Warning"><Description>Problem loading XML Definition</Description><MessageText>Could not find Part Named Gearbox_NameRMX_PathXML_Path in Getriebe624</MessageText></Element></Exceptions></ParametricModification>

@@ -1,0 +1,317 @@
+Name;MapID;ResultType;AssemType;PartType;NameInXml;UnitInXml
+formDiameter;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+formDiameterToBaseDiameterClearance;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+finishedAddendumModCoeff;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+importedBendingSafetyFactors;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+importedContactSafetyFactors;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+biasDelta;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};lengthSmall
+barrellingDelta;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};lengthSmall
+involuteSlopeDelta;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};lengthSmall
+leadCrownDelta;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};lengthSmall
+leadSlopeDelta;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};lengthSmall
+normalModule;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+pressureAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};angle
+addendumModCoeff;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+addendumFactor;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+dedendumFactor;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+rootDiameter;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+rootFilletRadiusFactor;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+tipDiameter;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+tipThickness;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+tipThicknessFactor;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};none
+rootFilletRadius;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};length
+transversePressureAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};angle
+polarInertia;1;Part;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName};momentInertia
+mass;1;Part;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName};mass
+mass;1;Part;;;.\{GearboxName};mass
+extentsX;1;Part;;;.\{GearboxName};length
+extentsY;1;Part;;;.\{GearboxName};length
+extentsZ;1;Part;;;.\{GearboxName};length
+mass;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};mass
+polarInertia;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};momentInertia
+mass;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};mass
+polarInertia;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};momentInertia
+averageMisalignmentTEGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};lengthSmall
+averageTE;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};lengthSmall
+averageTEGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};lengthSmall
+axialContactRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+balanceOfSlideRollRatios;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+bottomClearance;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+bottomClearanceFactor;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+diameterToSAPOfGear1;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+diameterToSAPOfGear2;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+finishedNormalBacklash;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+finishedTransverseCircularBacklash;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+formDiameterToSAPClearance;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+maxMisalignmentTEGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};lengthSmall
+overallMaxTE;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};lengthSmall
+toothLossFactor;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+totalContactRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+transverseContactRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+workingCentreDistance;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};length
+worstLeftLoadRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstLeftLoadRatioGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstRightLoadRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstRightLoadRatioGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstRootLoadRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstRootLoadRatioGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstTipLoadRatio;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+worstTipLoadRatioGB;1;Connection;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2};none
+meshMisalignmentAverage;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+calculatedKHBeta;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+drivenGearFlank;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};nil
+drivenGearName;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};nil
+drivingGearFlank;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};nil
+drivingGearName;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};nil
+drivingForceAxial;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};force
+drivingForceRadial;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};force
+drivingForceSeparating;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};force
+drivingForceTangential;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};force
+deflectedMeshMisalignment;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+part1Torque;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};momentTorque
+part2Torque;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};momentTorque
+leftLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+meshMisalignmentMax;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+gear1MeshFrictionCoeff;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+overrideMeshStiffnessLinear;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};stiffnessLinear
+estimatedMicrogeometryPowerLoss;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};power
+meshMisalignmentMin;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+meshMisalignmentDeltaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+meshMisalignmentDrivenGearDeltaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+meshMisalignmentDrivingGearDeltaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+meshMisalignmentGammaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+meshMisalignmentDrivenGearGammaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+meshMisalignmentDrivingGearGammaAngle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+misalignmentTEFirstHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+misalignmentTransmissionErrorPeak;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+misalignmentTESecondHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+misalignmentTEThirdHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angleSmall
+normalizedPeakDistanceFromCentre;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+numberOfLoadedFlanks;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+peakContactStress;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};pressure
+peakLoad;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};stiffnessLinear
+componentPowerLoss;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};power
+rightLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+rootLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+teFirstHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+transmissionErrorPeak;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+tePhaseFirstHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angle
+tePhaseSecondHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angle
+tePhaseThirdHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};angle
+teSecondHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+teThirdHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};lengthSmall
+tipLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};none
+bendingStress;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});pressure
+contactStress;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});pressure
+bendingDamage;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});percentage
+contactDamage;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});percentage
+safetyFactorInBending;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});none
+safetyFactorInContact;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{AssemName1} ({TestCase}) Rating Case ({AssemName2});none
+bendingDamageLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};percentage
+bendingDamageRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};percentage
+contactDamageLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};percentage
+contactDamageRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};percentage
+displacementSCSX;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};lengthSmall
+displacementSCSY;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};lengthSmall
+displacementSCSZ;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};lengthSmall
+fBetaXRange;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};lengthSmall
+componentPowerLoss;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};power
+tiltSCSX;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};angleSmall
+tiltSCSY;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};angleSmall
+tiltSCSZ;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};angleSmall
+bendingStressLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};pressure
+bendingStressRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};pressure
+contactStressLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};pressure
+contactStressRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};pressure
+aggregateBendingSafetyFactorLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+aggregateBendingSafetyFactorRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+aggregateContactSafetyFactorLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+aggregateContactSafetyFactorRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+bendingDamageLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+bendingDamageRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+contactDamageLeft;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+contactDamageRight;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+getWorstSafetyFactorInBending;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+getWorstSafetyFactorInContact;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};none
+calculatedKHBeta;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+leftLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+localPowerLoss;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);power
+normalizedPeakDistanceFromCentre;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+peakContactStress;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);pressure
+peakContactStressRollDistancePositionGear1;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);length
+peakContactStressRollDistancePositionGear2;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);length
+peakFlashTemperature;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);temperatureChange
+peakLoad;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);stiffnessLinear
+rightLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+rootLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+teFirstHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);lengthSmall
+teSecondHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);lengthSmall
+teThirdHarmonic;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);lengthSmall
+tipLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);none
+transmissionError;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>( Topology case ) (Default);lengthSmall
+averageTE;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};lengthSmall
+averageTEGB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};lengthSmall
+balanceOfSlideRollRatios;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+overallMaxTE;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};lengthSmall
+worstLeftLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstLeftLoadRatioGB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstRightLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstRightLoadRatioGB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstRootLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstRootLoadRatioGB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstTipLoadRatio;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+worstTipLoadRatioGB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan};none
+cageSpeedRow1;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};speedRotation
+housingDeflectionX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+housingDeflectionY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+housingDeflectionZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+housingTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+housingTiltZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+innerRingDeflectionX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+housingTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+innerRingDeflectionY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+innerRingDeflectionZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+innerRingTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+innerRingTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+innerRingTiltZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+isoDamageFraction;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};percentage
+isoLifeSec;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};time
+aISO;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};none
+kappa;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};none
+isoTS16281DamageFaction;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};percentage
+isoTS16281ModifiedLifeSec;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};time
+aISOForTS16281;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};none
+isoTS16281ReferenceLifeSec;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};time
+radialStiffnessX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};stiffnessLinear
+radialStiffnessY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};stiffnessLinear
+axialStiffness;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};stiffnessLinear
+loadY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};force
+loadX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};force
+loadZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};force
+radialLoadMagnitude;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};force
+magMisalignmentNormalToLoad;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+maxInnerContactStress;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};pressure
+maxOuterContactStress;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};pressure
+elementTruncations;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};percentage
+maxContactStress;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};pressure
+radialMomentMagnitude;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};momentTorque
+momentX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};momentTorque
+momentY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};momentTorque
+momentZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};momentTorque
+numberOfLoadedElementsRow1;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};integer
+outerRingDeflectionX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+outerRingDeflectionY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+outerRingDeflectionZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+outerRingTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+outerRingTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+outerRingTiltZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+powerLoss;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};power
+relativeDeflectionX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+relativeDeflectionY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+relativeDeflectionZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+relativeDeflectionRadialMaginitude;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+relativeTiltRadialMaginitude;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+relativeTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+relativeTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+relativeTiltZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+shaftDeflectionX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+shaftDeflectionY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+shaftDeflectionZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};lengthSmall
+shaftTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+shaftTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+shaftTiltZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};angleSmall
+staticEquivLoad;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};force
+tiltStiffnessX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};stiffnessAngular
+tiltStiffnessY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};stiffnessAngular
+gearRate^stdGear1^sigmaF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^KA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^Fpb;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^YA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^stdGear1^SFLIM;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^SFLIM;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^KV;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KHB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KFB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^V40;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});viscosity
+gearRate^SFMIN;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^SHMIN;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^YB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^stdGear1^sigmaFO;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaFO;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear1^sigmaFP;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaFP;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^pinionCycles;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^pinionMeshesPerCycle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^pinionSpeed;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});speedRotation
+gearRate^pinionTorque;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});momentTorque
+gearRate^scuffingFlashTempSF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^scuffingIntegralSF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^Cdash;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^CG;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^isoSizeFactor;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^FBX;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^KFA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KHA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^wheelMeshesPerCycle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+shaftLoadAngle;1;Case;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};angle
+shaftLoadRadial;1;Case;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+shaftLoadAxial;1;Case;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+teFirstHarmonic;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};angleSmall
+teSecondHarmonic;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};angleSmall
+teThirdHarmonic;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};angleSmall
+totalPowerflowEfficiency;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};percentage
+totalPowerflowLoss;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};power
+bearingEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+bevelMeshEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+gearEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+meshEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+plainBearingEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+shaftSealEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+totalCO2Loss;1;Case;;;.\{GearboxName}>>A new drive cycle;mass
+totalEfficiency;1;Case;;;.\{GearboxName}>>A new drive cycle;percentage
+totalEnergyIn;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+totalEnergyLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+totalEnergyOut;1;Case;;;.\{GearboxName}>>A new drive cycle;energy
+totalFuelLoss;1;Case;;;.\{GearboxName}>>A new drive cycle;mass
+shaftLoadAngle;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};angle
+shaftLoadAxial;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+shaftLoadRadial;1;Case;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+shaftLoadAngle;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};angle
+shaftLoadAxial;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+shaftLoadRadial;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail>>{TestPlan}\{TestCase};force
+aggregateISODamageFraction;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+predictedISOLife;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};time
+aggregateISOTS16281DamageFraction;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};percentage
+predictedISOTS16281Life;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan};time
+gearRate^stdGear1^sigmaF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^KA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^Fpb;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^YA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^stdGear1^SFLIM;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^SFLIM;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^KV;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KFB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KHB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^V40;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});viscosity
+gearRate^SFMIN;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^SHMIN;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^YB;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^stdGear1^sigmaFO;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaFO;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear1^sigmaFP;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^stdGear2^sigmaFP;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^pinionCycles;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^pinionMeshesPerCycle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^pinionSpeed;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});speedRotation
+gearRate^pinionTorque;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});momentTorque
+gearRate^scuffingFlashTempSF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^scuffingIntegralSF;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^Cdash;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^CG;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});pressure
+gearRate^isoSizeFactor;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^FBX;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});lengthSmall
+gearRate^KFA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^KHA;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none
+gearRate^wheelMeshesPerCycle;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});none

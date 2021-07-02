@@ -1,0 +1,4 @@
+﻿AttribUnit;AttribUnit_rmx_input;multiplier;type
+m;length;*1;float
+;integer;*1;integer
+Celsius;temperature;-273.15;float

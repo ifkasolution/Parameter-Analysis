@@ -1,0 +1,126 @@
+﻿Name;MapID;VariableType;AssemType;PartType;NameInXml;TypeInXml;UnitInXml
+normalModule;77;Part;HelicalGearset;;.\{GearboxName}\{AssemName1}\gearDesignSettings;float;length
+pressureAngle;242;Part;HelicalGearset;;.\{GearboxName}\{AssemName1}\gearDesignSettings;float;angle
+signedHelixAngle;239;Part;HelicalGearset;;.\{GearboxName}\{AssemName1}\gearDesignSettings;float;angle
+edgeChamferWidth;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};float;length
+faceWidth;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};float;length
+flankSurfaceRoughness;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+flankSurfaceRoughnessMeanPeakToValley;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+qualityGrade;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};integer;integer
+rootSurfaceRoughnessMeanPeakToValley;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+normalBacklash;1;Part;DetailedHelicalGearMesh;;.\{GearboxName}\{AssemName1}\gearDesignSettings;float;length
+biasSlopeChangeMinus;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+biasSlopeChangePlus;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+involuteBarrelling;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+involuteSlope;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+leadCrown;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+leadSlope;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+linearRootRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+linearTipRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+lowerInvoluteLimit;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+lowerLinearEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+lowerLinearEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;length
+lowerParabolicEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+lowerParabolicEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;length
+parabolicRootRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+parabolicTipRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+zeroBiasProfileRatio;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;percentage
+reportedLinearRootReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+reportedLinearTipReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+reportedParabolicRootReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+reportedParabolicTipReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+upperInvoluteLimit;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;angle
+upperLinearEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+upperLinearEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;length
+upperParabolicEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;lengthSmall
+upperParabolicEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Left Flank;float;length
+biasSlopeChangeMinus;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+biasSlopeChangePlus;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+involuteBarrelling;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+involuteSlope;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+leadCrown;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+leadSlope;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+linearRootRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+linearTipRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+lowerLinearEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+lowerLinearEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;length
+lowerParabolicEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+lowerParabolicEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;length
+parabolicRootRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+parabolicTipRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+zeroBiasProfileRatio;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;percentage
+reportedLinearRootReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;angle
+reportedLinearTipReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;angle
+reportedParabolicRootReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;angle
+reportedParabolicTipReliefStartRollAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;angle
+upperLinearEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+upperLinearEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;length
+upperParabolicEndRelief;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;lengthSmall
+upperParabolicEndReliefStart;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Right Flank;float;length
+effectiveProtuberance;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;length
+numberOfTeeth;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;integer;integer
+profileShiftCoefficient;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;none
+protuberanceAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;angle
+rootDiameter;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;length
+tipChamferAngle;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;angle
+tipChamferHeight;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;length
+tipDiameter;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;length
+toolTipRadius;1;Part;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}\gearDesignSettings;float;length
+initialRotationError;1;Connection;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail;float;angle
+offset;1;Connection;HelicalGearset;HelicalGear;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail;float;length
+faceLoadPoint;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase};;length
+kHbeta;1;Case;HelicalGearset;;.\{GearboxName}\{AssemName1}@@{AssemName2}>>{TestPlan}\{TestCase}\{TestCase} Rating Case ({AssemName2});float;none
+polarCoordTheta;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};float;angle
+polarCoordR;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};float;length
+polarCoordZ;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};float;length
+materialStiffnessMultiplier;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName};float;none
+shaftDisplacementX;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+shaftDisplacementY;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+shaftDisplacementZ;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+shaftTiltX;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;angleSmall
+shaftTiltY;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;angleSmall
+housingDisplacementX;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+housingDisplacementY;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+housingDisplacementZ;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;lengthSmall
+housingTiltX;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;angleSmall
+housingTiltY;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;angleSmall
+catalogDesignation;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};string;CUSTOM:NSK 6009
+materialStiffnessMultiplier;1;Part;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName};float;none
+leftBoreDiameter;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}@@Section {AttribIdx};float;length
+rightBoreDiameter;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}@@Section {AttribIdx};float;length
+length;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}@@Section {AttribIdx};float;length
+leftDiameter;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}@@Section {AttribIdx};float;length
+rightDiameter;1;Part;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}@@Section {AttribIdx};float;length
+offset;1;Connection;ShaftAssembly;PowerLoad;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail;float;length
+offset;1;Connection;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}@@Housing Mounting Detail;float;length
+offset;1;Connection;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail;float;length
+innerOvalisation;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+innerAngleOfMajorAxisFromXShaftAxis;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angle
+innerRingSetDisplacementX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+innerRingSetDisplacementY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+innerRingSetDisplacementZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+innerRingPreloadForceX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+innerRingPreloadForceY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+innerRingPreloadForceZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+innerRingSetTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angleSmall
+innerRingSetTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angleSmall
+operatingRIC;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+outerOvalisation;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+outerAngleOfMajorAxisFromXShaftAxis;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angle
+outerRingSetDisplacementX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+outerRingSetDisplacementY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+outerRingSetDisplacementZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;lengthSmall
+outerRingPreloadForceX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+outerRingPreloadForceY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+outerRingPreloadForceZ;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;force
+outerRingSetTiltX;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angleSmall
+outerRingSetTiltY;1;Case;ShaftAssembly;Bearing;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase}\{TestCase};float;angleSmall
+rotationAngle;1;Case;ShaftAssembly;Shaft;.\{GearboxName}\{AssemName1}\{PartName}>>{TestPlan}\{TestCase};float;angle
+lubricantLevel;1;Part;;;.\{GearboxName};float;length
+meshResultsSampleSize;1;Part;;;.\{GearboxName};float;none
+offset;1;Connection;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName}@@Mounting detail;float;length
+temperature;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};float;temperature
+time;1;Case;;;.\{GearboxName}>>{TestPlan}\{TestCase};float;time
+mass;1;Part;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName};float;mass
+polarInertia;1;Part;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName};float;momentInertia
+transverseInertia;1;Part;ClutchPair;Clutch;.\{GearboxName}\{AssemName1}\{PartName};float;momentInertia
